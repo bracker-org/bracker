@@ -1,2 +1,2 @@
-# Script_install_minecraft_hacked_client
+# Script install minecraft hacked client
 This is a script to install Minecraft hacked client
