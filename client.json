@@ -8,11 +8,21 @@
       "client_type": "mod",
       "mc_versions": [
         {
-          "name": "1.8.9",
+          "mc_version": "1.8.9",
           "client_versions": [
             {
-                "name": "4.4.0",
-                "download_link": [
+              "version": "71fd3ff",
+              "mirrors": [
+                {
+                  "mirror": "mediafire",
+                  "link": "https://www.mediafire.com/file/a195nos7703o42t/FDPClient-71fd3ff.jar/file"
+                }
+              ]
+            },
+
+            {
+                "version": "4.4.0",
+                "mirrors": [
                   {
                     "mirror": "github",
                     "link": "https://github.com/SkidderMC/FDPClient/releases/download/v4.4.0/FDPClient-8574f26.jar"
@@ -21,7 +31,7 @@
             },
             {
                 "name": "4.4.5",
-                "download_link": [
+                "mirrors": [
                   {
                     "mirror": "github",
                     "link": "https://github.com/SkidderMC/FDPClient/releases/download/v4.4.5/FDPClient-8cd445f.jar"
@@ -30,7 +40,7 @@
             },
             {
                 "name": "4.5.0",
-                "download_link": [
+                "mirrors": [
                   {
                     "mirror": "github",
                     "link": "https://github.com/SkidderMC/FDPClient/releases/download/v4.5.0/FDPClient-4.5.0.jar"
@@ -39,7 +49,7 @@
             },
             {
               "name": "4.5.5b",
-              "download_link": [
+              "mirrors": [
                 {
                   "mirror": "github",
                   "link": "https://github.com/SkidderMC/FDPClient/releases/download/v4.5.5/FDPv4.5.5b.jar"
@@ -59,11 +69,11 @@
       "client_type": "mod",
       "mc_versions": [
         {
-          "name": "1.8.9",
+          "mc_version": "1.8.9",
           "client_versions": [
             {
-              "name": "b26",
-              "download_link": [
+              "version": "b26",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b26.zip"
@@ -71,8 +81,8 @@
               ]
             },
             {
-              "name": "b26",
-              "download_link": [
+              "version": "b26",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b26.2.zip"
@@ -80,8 +90,8 @@
               ]
             },
             {
-              "name": "b27",
-              "download_link": [
+              "version": "b27",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b27.zip"
@@ -89,8 +99,8 @@
               ]
             },
             {
-              "name": "b28",
-              "download_link": [
+              "version": "b28",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b28.zip"
@@ -98,8 +108,8 @@
               ]
             },
             {
-              "name": "b29",
-              "download_link": [
+              "version": "b29",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b29.zip"
@@ -107,8 +117,8 @@
               ]
             },
             {
-              "name": "b30",
-              "download_link": [
+              "version": "b30",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b30.zip"
@@ -116,8 +126,8 @@
               ]
             },
             {
-              "name": "b31",
-              "download_link": [
+              "version": "b31",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b31.zip"
@@ -125,8 +135,8 @@
               ]
             },
             {
-              "name": "b32",
-              "download_link": [
+              "version": "b32",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b32.zip"
@@ -134,8 +144,8 @@
               ]
             },
             {
-              "name": "b33",
-              "download_link": [
+              "version": "b33",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b33.zip"
@@ -143,8 +153,8 @@
               ]
             },
             {
-              "name": "b34",
-              "download_link": [
+              "version": "b34",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b34.zip"
@@ -152,8 +162,8 @@
               ]
             },
             {
-              "name": "b35",
-              "download_link": [
+              "version": "b35",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b35.zip"
@@ -161,8 +171,8 @@
               ]
             },
             {
-              "name": "b36",
-              "download_link": [
+              "version": "b36",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b36.zip"
@@ -170,8 +180,8 @@
               ]
             },
             {
-              "name": "b37",
-              "download_link": [
+              "version": "b37",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b37.zip"
@@ -179,8 +189,8 @@
               ]
             },
             {
-              "name": "b39",
-              "download_link": [
+              "version": "b39",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b39.zip"
@@ -188,8 +198,8 @@
               ]
             },
             {
-              "name": "b40",
-              "download_link": [
+              "version": "b40",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b40.zip"
@@ -197,8 +207,8 @@
               ]
             },
             {
-              "name": "b41",
-              "download_link": [
+              "version": "b41",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b41.zip"
@@ -206,8 +216,8 @@
               ]
             },
             {
-              "name": "b42",
-              "download_link": [
+              "version": "b42",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b42.zip"
@@ -215,8 +225,8 @@
               ]
             },
             {
-              "name": "b43",
-              "download_link": [
+              "version": "b43",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b43.zip"
@@ -224,8 +234,8 @@
               ]
             },
             {
-              "name": "b44",
-              "download_link": [
+              "version": "b44",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b44.zip"
@@ -233,8 +243,8 @@
               ]
             },
             {
-              "name": "b46",
-              "download_link": [
+              "version": "b46",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b46.zip"
@@ -242,8 +252,8 @@
               ]
             },
             {
-              "name": "b48",
-              "download_link": [
+              "version": "b48",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b48.zip"
@@ -251,8 +261,8 @@
               ]
             },
             {
-              "name": "b50",
-              "download_link": [
+              "version": "b50",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b50.zip"
@@ -260,8 +270,8 @@
               ]
             },
             {
-              "name": "b51",
-              "download_link": [
+              "version": "b51",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b51.zip"
@@ -269,8 +279,8 @@
               ]
             },
             {
-              "name": "b52",
-              "download_link": [
+              "version": "b52",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b52.zip"
@@ -278,8 +288,8 @@
               ]
             },
             {
-              "name": "b53",
-              "download_link": [
+              "version": "b53",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b53.zip"
@@ -287,8 +297,8 @@
               ]
             },
             {
-              "name": "b54",
-              "download_link": [
+              "version": "b54",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b54.zip"
@@ -296,8 +306,8 @@
               ]
             },
             {
-              "name": "b55",
-              "download_link": [
+              "version": "b55",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b55.zip"
@@ -305,8 +315,8 @@
               ]
             },
             {
-              "name": "b56",
-              "download_link": [
+              "version": "b56",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b56.zip"
@@ -314,8 +324,8 @@
               ]
             },
             {
-              "name": "b57",
-              "download_link": [
+              "version": "b57",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b57.zip"
@@ -323,8 +333,8 @@
               ]
             },
             {
-              "name": "b58",
-              "download_link": [
+              "version": "b58",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b58.zip"
@@ -332,8 +342,8 @@
               ]
             },
             {
-              "name": "b59",
-              "download_link": [
+              "version": "b59",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b59.zip"
@@ -341,8 +351,8 @@
               ]
             },
             {
-              "name": "b60",
-              "download_link": [
+              "version": "b60",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b60.zip"
@@ -350,8 +360,8 @@
               ]
             },
             {
-              "name": "b61",
-              "download_link": [
+              "version": "b61",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b61.zip"
@@ -359,8 +369,8 @@
               ]
             },
             {
-              "name": "b62",
-              "download_link": [
+              "version": "b62",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b62.zip"
@@ -368,8 +378,8 @@
               ]
             },
             {
-              "name": "b63",
-              "download_link": [
+              "version": "b63",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b63.zip"
@@ -377,8 +387,8 @@
               ]
             },
             {
-              "name": "b64",
-              "download_link": [
+              "version": "b64",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b64.zip"
@@ -386,8 +396,8 @@
               ]
             },
             {
-              "name": "b65",
-              "download_link": [
+              "version": "b65",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b65.zip"
@@ -395,8 +405,8 @@
               ]
             },
             {
-              "name": "b66",
-              "download_link": [
+              "version": "b66",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b66.zip"
@@ -404,8 +414,8 @@
               ]
             },
             {
-              "name": "b67",
-              "download_link": [
+              "version": "b67",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b67.zip"
@@ -413,8 +423,8 @@
               ]
             },
             {
-              "name": "b68",
-              "download_link": [
+              "version": "b68",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.8.9-b68.zip"
@@ -422,8 +432,8 @@
               ]
             },
             {
-              "name": "b71",
-              "download_link": [
+              "version": "b71",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/10/LiquidBounce1.8.9-b71.zip"
@@ -431,8 +441,8 @@
               ]
             },
             {
-              "name": "b72",
-              "download_link": [
+              "version": "b72",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/10/LiquidBounce1.8.9-b72.zip"
@@ -440,8 +450,8 @@
               ]
             },
             {
-              "name": "b73",
-              "download_link": [
+              "version": "b73",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/10/LiquidBounce-b73.zip"
@@ -451,11 +461,11 @@
           ]
         },
         {
-          "name": "1.12.2",
+          "mc_version": "1.12.2",
           "client_versions": [
             {
-              "name": "b1",
-              "download_link": [
+              "version": "b1",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.12.2-b1.zip"
@@ -463,8 +473,8 @@
               ]
             },
             {
-              "name": "b2",
-              "download_link": [
+              "version": "b2",
+              "mirrors": [
                 {
                   "mirror": "minecraftcheatsru",
                   "link": "https://minecraftcheats.ru/wp-content/uploads/2020/01/LiquidBounce1.12.2-b2.zip"
