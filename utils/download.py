@@ -1,24 +1,24 @@
+from msilib.schema import File
 import requests
 import os
 import threading
 import time
 from queue import Queue
 from tqdm import tqdm
+from utils.filemanager import FileManager
 
 
 
 class Download:
     def __init__(self, url, destination=None, headers={}):
         self.url = url
-        self.destination = destination
+        self.destination = FileManager.get_absolute_path(destination) if destination else os.getcwd()
         self.headers = headers
+        self.filename = self.url.split('/')[-1]
 
     def download(self):
-        filename = self.url.split('/')[-1]
-        if self.destination is None:
-            self.destination = os.getcwd()
-        filepath = os.path.join(self.destination, filename)
-        self.create_destination_directory()
+        FileManager.create_destination_directory(self.destination)
+        filepath = os.path.join(self.destination, self.filename)
         r = requests.get(self.url, headers=self.headers, stream=True)
         total_size = int(r.headers.get('content-length', 0))
         block_size = 1024
@@ -29,12 +29,8 @@ class Download:
                 f.write(data)
         t.close()
 
-    def get_absolute_path(self, path):
-        return os.path.join(os.getcwd(), path)
-
-    def create_destination_directory(self):
-        if not os.path.exists(self.destination):
-            os.makedirs(self.destination)
+    def check_file_downloaded(self):
+        return os.path.exists(os.path.join(self.destination, self.filename))
 
 
 

@@ -2,18 +2,26 @@ import argparse
 import json
 from utils.download import Download
 from getlink.mediafire import Mediafire
+from utils.filemanager import FileManager
+import os
 # Đọc file client.json
 json_obj = json.load(open('client.json'))
 
 
-def install(client, version=None, mc_version=None, mirror=None):
+def install(client, version=None, mc_version=None, mirror=None, **kwargs):
+	global client_object, mc_version_object, version_object
+	global link, downloader
+	download_destination = 'files_downloaded'
+
+
+	for key, value in kwargs.items():
+		if key == 'download_destination':
+			download_destination = value
+
+
 	if mc_version is None:
 		mc_version = '1.8.9'
-	client_object = {}
-	mc_version_object = {}
-	version_object = {}
-	mirror = ''
-	link = ''
+	
 
 	for item in json_obj:
 		if item['id'] == client:
@@ -61,9 +69,23 @@ def install(client, version=None, mc_version=None, mirror=None):
 		mirror = version_object['mirrors'][-1]['mirror']
 
 	if mirror == 'mediafire':
-		Mediafire(link).download()
+		downloader = Mediafire(link, destination=download_destination)
 	else:
-		Download(link).download()
+		downloader = Download(link, destination=download_destination)
+
+	# Check file downloaded
+	if not downloader.check_file_downloaded():
+		downloader.download()
+		print('[Info] Download complete')
+	else: 
+		print('[Info] File already downloaded')
+	
+
+	# Copy file to minecraft folder
+	download_file_des = FileManager.get_absolute_path(os.path.join(download_destination, downloader.filename))
+	FileManager.copy(download_file_des, FileManager.getMinecraftModsFolder())
+
+	print('[Info] Install complete')
 
 def parse_argument():
 	'''
