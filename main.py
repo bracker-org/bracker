@@ -88,14 +88,9 @@ def install(client, version=None, mc_version=None, mirror=None, **kwargs):
 	print('[Info] Install complete')
 
 def parse_argument():
-	'''
-		Trích xuất các tham số trong CLI
-		Ex: python main.py install fdpclient --version 4.4.5
-	'''
-
 	parser = argparse.ArgumentParser()
-	parser.add_argument("action", type=str)
-	parser.add_argument("client", type=str)
+	parser.add_argument("action", type=str, help="Action to execute. Support: install")
+	parser.add_argument("value", type=str, help="Value of action. Support: id_client")
 	parser.add_argument("--version", nargs='?', help="Version of client", default=None)
 	parser.add_argument("--mc-version", nargs='?', help="Minecraft version", default=None)
 	parser.add_argument("--mirror", nargs='?', help="Mirror", default=None)
@@ -104,12 +99,10 @@ def parse_argument():
 
 
 def main():
-	# Parse args
 	args = parse_argument()
 
 	if args.action == 'install':
-		# Thực hiện lệnh install
-		install(args.client, version=args.version, mc_version=args.mc_version, mirror=args.mirror)
+		install(args.value, version=args.version, mc_version=args.mc_version, mirror=args.mirror)
 
 
 

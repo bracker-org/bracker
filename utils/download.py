@@ -1,9 +1,6 @@
 from msilib.schema import File
 import requests
 import os
-import threading
-import time
-from queue import Queue
 from tqdm import tqdm
 from utils.filemanager import FileManager
 
