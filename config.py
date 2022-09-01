@@ -1,0 +1,2 @@
+class Config:
+    DOWNLOAD_BLOCK_SIZE = 1024 * 256 # 256KB
